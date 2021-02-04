@@ -1,5 +1,5 @@
 package operators;
 
-public class arithmetic {
+public class bitwise {
 
 }
