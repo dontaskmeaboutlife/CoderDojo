@@ -1,25 +1,31 @@
 package corejava;
 
+import operators.arithmetic;
+import operators.assignment;
+import operators.bitwise;
+import operators.comparision;
+import operators.logical;
+import operators.miscallaneous;
+import operators.relational;
+
 public class Main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-				int x = 65;
-				int y = 12;
-				int w = x+y;
-				int k = x-y;
-				int q = x*y;
-				int r = x/y;
-				int h = x%y;
-				System.out.println(w);
-				System.out.println(k);
-				System.out.println(q);	
-				System.out.println(r);	
-				System.out.println(h);
+	
+		arithmetic math = new arithmetic();
+		assignment math2 = new assignment();
+		bitwise math3 = new bitwise();
+		comparision math4 = new comparision();
+		logical math5 = new logical();
+		miscallaneous math6 = new miscallaneous();
+		relational math7 = new relational();
+	
+	
 	
 	
 	
 	
 	}
+	
 
 }
